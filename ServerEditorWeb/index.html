@@ -38,7 +38,20 @@
       <div id="resize-left"></div>
       <div id="content-workspace">
         <div id="runbutton">&rarr;</div>
-        <div id="editor"></div>
+        <div id="editor">from mcapi import * #this line required :D
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cube(0, 100, 0, BlockType.Bedrock, 10)
+cube(9, 109, 9, BlockType.DiamondBlock, 4)
+
+teleport(5, 110, 5, 'heyandy889')
+
+player = getplayer('heyandy889')
+for i in range(3):
+	bolt(player.x, player.y, player.z)
+	sleep(1)
+
+
+</div>
         <div id="console"></div>
       </div>
       <div id="resize-right"></div>
