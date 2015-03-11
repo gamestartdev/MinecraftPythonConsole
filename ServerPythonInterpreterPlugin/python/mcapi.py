@@ -1,4 +1,4 @@
-print('Importing mcapi...')
+print('Importing command definitions...')
 
 from net.canarymod import Canary
 from net.canarymod import LineTracer
