@@ -16,12 +16,23 @@ from time import *
 from random import *
 from math import *
 
-SERVER = Canary.getServer()
-WORLD = SERVER.getDefaultWorld()
+SERVER 	= Canary.getServer()
+WORLD 	= SERVER.getDefaultWorld()
 MORNING = 2000
-NOON = 6000
+NOON 	= 6000
 EVENING = 14000
-NIGHT = 18000
+NIGHT 	= 18000
+
+#full list of BlockTypes in JavaDocs on canarymod.net
+AIR                 = BlockType.Air
+STONE               = BlockType.Stone
+GRASS               = BlockType.Grass
+DIRT                = BlockType.Dirt
+COBBLESTONE         = BlockType.Cobble
+WOOD_PLANKS         = BlockType.OakWood
+SAPLING             = BlockType.OakSapling
+BEDROCK             = BlockType.Bedrock
+
 
 def pos(positionable):
 	return positionable.getPosition()
@@ -63,7 +74,7 @@ def yell(message):
 
 def time(time):
 	WORLD.setTime(time)
-	
+
 def weather(rainsnow, thunder):
 	WORLD.setRaining(rainsnow)
 	WORLD.setthundering(thunder)
