@@ -89,10 +89,10 @@ CLAY                = BlockType.Clay
 SUGAR_CANE          = BlockType.Reed
 FENCE               = BlockType.Fence
 GLOWSTONE_BLOCK     = BlockType.GlowStone
-BEDROCK_INVISIBLE   = BEDROCK	#invis. not in canary?
 STONE_BRICK         = BlockType.StoneBrick
-
-
+GLASS_PANE          = BlockType.GlassPane
+MELON               = BlockType.Melon
+FENCE_GATE          = BlockType.FenceGate
 
 def pos(positionable):
 	return positionable.getPosition()
