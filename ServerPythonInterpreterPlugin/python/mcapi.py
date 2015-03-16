@@ -38,6 +38,36 @@ WATER_STATIONARY    = BlockType.Water
 LAVA_FLOWING        = BlockType.LavaFlowing
 LAVA                = LAVA_FLOWING
 LAVA_STATIONARY     = BlockType.Lava
+SAND                = BlockType.Sand
+GRAVEL              = BlockType.Gravel
+GOLD_ORE            = BlockType.GoldOre
+IRON_ORE            = BlockType.IronOre
+COAL_ORE            = BlockType.CoalOre
+WOOD                = BlockType.OakLog
+LEAVES              = BlockType.OakLeaves
+GLASS               = BlockType.Glass
+LAPIS_LAZULI_ORE    = BlockType.LapisOre
+LAPIS_LAZULI_BLOCK  = BlockType.LapisBlock
+SANDSTONE           = BlockType.Sandstone
+BED                 = BlockType.Bed
+COBWEB              = BlockType.Web
+GRASS_TALL          = BlockType.TallGrass
+WOOL                = BlockType.WhiteWool
+FLOWER_YELLOW       = BlockType.Dandelion
+FLOWER_CYAN         = BlockType.BlueOrchid
+MUSHROOM_BROWN      = BlockType.BrownMushroom
+MUSHROOM_RED        = BlockType.RedMushroom
+GOLD_BLOCK          = BlockType.GoldBlock
+IRON_BLOCK          = BlockType.IronBlock
+STONE_SLAB_DOUBLE   = BlockType.DoubleStoneSlab
+STONE_SLAB          = BlockType.StoneSlab
+BRICK_BLOCK         = BlockType.BrickBlock
+TNT                 = BlockType.TNT
+BOOKSHELF           = BlockType.Bookshelf
+MOSS_STONE          = BlockType.MossyCobble
+OBSIDIAN            = BlockType.Obsidian
+TORCH               = BlockType.Torch
+FIRE                = BlockType.FireBlock
 
 
 def pos(positionable):
