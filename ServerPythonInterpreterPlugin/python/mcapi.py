@@ -68,6 +68,30 @@ MOSS_STONE          = BlockType.MossyCobble
 OBSIDIAN            = BlockType.Obsidian
 TORCH               = BlockType.Torch
 FIRE                = BlockType.FireBlock
+STAIRS_WOOD         = BlockType.OakStairs
+CHEST               = BlockType.Chest
+DIAMOND_ORE         = BlockType.DiamondOre
+DIAMOND_BLOCK       = BlockType.DiamondBlock
+CRAFTING_TABLE      = BlockType.Workbench
+FARMLAND            = BlockType.Farmland
+FURNACE_INACTIVE    = BlockType.Furnace
+FURNACE_ACTIVE      = BlockType.BurningFurnace
+DOOR_WOOD           = BlockType.WoodenDoor
+LADDER              = BlockType.Ladder
+STAIRS_COBBLESTONE  = BlockType.StoneStairs
+DOOR_IRON           = BlockType.IronDoor
+REDSTONE_ORE        = BlockType.RedstoneOre
+SNOW                = BlockType.Snow
+ICE                 = BlockType.Ice
+SNOW_BLOCK          = BlockType.SnowBlock
+CACTUS              = BlockType.Cactus
+CLAY                = BlockType.Clay
+SUGAR_CANE          = BlockType.Reed
+FENCE               = BlockType.Fence
+GLOWSTONE_BLOCK     = BlockType.GlowStone
+BEDROCK_INVISIBLE   = BEDROCK	#invis. not in canary?
+STONE_BRICK         = BlockType.StoneBrick
+
 
 
 def pos(positionable):
