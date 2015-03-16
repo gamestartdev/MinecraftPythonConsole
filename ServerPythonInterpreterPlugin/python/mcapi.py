@@ -23,7 +23,7 @@ NOON 	= 6000
 EVENING = 14000
 NIGHT 	= 18000
 
-#full list of BlockTypes in JavaDocs on canarymod.net
+#full list of BlockTypes available in JavaDocs on canarymod.net
 AIR                 = BlockType.Air
 STONE               = BlockType.Stone
 GRASS               = BlockType.Grass
@@ -32,6 +32,12 @@ COBBLESTONE         = BlockType.Cobble
 WOOD_PLANKS         = BlockType.OakWood
 SAPLING             = BlockType.OakSapling
 BEDROCK             = BlockType.Bedrock
+WATER_FLOWING       = BlockType.WaterFlowing
+WATER               = WATER_FLOWING
+WATER_STATIONARY    = BlockType.Water
+LAVA_FLOWING        = BlockType.LavaFlowing
+LAVA                = LAVA_FLOWING
+LAVA_STATIONARY     = BlockType.Lava
 
 
 def pos(positionable):
