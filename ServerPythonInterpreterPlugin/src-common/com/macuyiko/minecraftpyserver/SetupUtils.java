@@ -29,6 +29,4 @@ public class SetupUtils {
             throw new IOException("Error, could not add URL to system classloader");
         }
     }
-	
-	
 }
