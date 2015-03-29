@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="D:/minecraft_server1.8/plugins/canaryseppemage.jar"/>
+    <options buildIfNeeded="true" compress="false" descriptionLocation="/CanaryConsole/dist/all.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="false" exportJavaFiles="true" exportOutputFolder="true">
+        <javaElement handleIdentifier="=CanaryConsole/src-spigot"/>
+        <file path="/CanaryConsole/.classpath"/>
+        <folder path="/CanaryConsole/lib-canary"/>
+        <folder path="/CanaryConsole/dist"/>
+        <folder path="/CanaryConsole/lib-common"/>
+        <folder path="/CanaryConsole/deps"/>
+        <file path="/CanaryConsole/plugin.yml"/>
+        <javaElement handleIdentifier="=CanaryConsole/src-common"/>
+        <folder path="/CanaryConsole/lib-spigot"/>
+        <file path="/CanaryConsole/config.yml"/>
+        <folder path="/CanaryConsole/python"/>
+        <javaElement handleIdentifier="=CanaryConsole/src-canary"/>
+        <file path="/CanaryConsole/Canary.inf"/>
+        <javaElement handleIdentifier="=CanaryConsole/deps\/mongo-java-driver-3.0.0-beta1"/>
+        <file path="/CanaryConsole/.project"/>
+    </selectedElements>
+</jardesc>
