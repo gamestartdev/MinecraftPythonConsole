@@ -7,8 +7,7 @@ import net.canarymod.logger.Logman;
 import net.canarymod.plugin.PluginListener;
 
 import org.gamestart.minecraft.modding.database.IDatabaseBoss;
-import org.python.core.PyObject;
-import org.python.util.InteractiveInterpreter;
+import org.python.util.PythonInterpreter;
 
 import com.macuyiko.canaryconsole.CanaryParser;
 import com.macuyiko.minecraftpyserver.ConsolePlugin;
@@ -37,7 +36,7 @@ public class ItemSwingSpellListener implements PluginListener {
 
 	private void executePythonFromPlayer(String python, String playerName) {
 		try{
-		InteractiveInterpreter interpreter = new InteractiveInterpreter(
+			PythonInterpreter interpreter = new PythonInterpreter(
 				null, ConsolePlugin.getPythonSystemState());
 		logman.info("Executing python on behalf of " + playerName + ": " + python);
 		CanaryParser.parse(interpreter, "from mcapi import *\n"+"player = getplayer('"+playerName+"')\n"+python,true);

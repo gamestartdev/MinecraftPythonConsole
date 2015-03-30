@@ -6,8 +6,6 @@ import java.lang.reflect.Method;
 import java.net.URL;
 import java.net.URLClassLoader;
 
-import net.canarymod.api.world.blocks.BlockType;
-
 public class SetupUtils {
 	public static void setup() throws IOException {
 		File dependencyDirectory = new File("lib-common/");

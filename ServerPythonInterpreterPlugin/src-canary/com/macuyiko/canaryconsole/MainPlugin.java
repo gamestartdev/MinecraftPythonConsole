@@ -12,11 +12,12 @@ import com.macuyiko.minecraftpyserver.ConsolePlugin;
 import com.macuyiko.minecraftpyserver.SetupUtils;
 
 import net.canarymod.Canary;
+import net.canarymod.api.entity.living.humanoid.Player;
 import net.canarymod.plugin.Plugin;
 
 public class MainPlugin extends Plugin {
 	
-	public static final MongoDBAccessor TEST_DB_ACCESSOR = MongoDBAccessorFactory.manufacture("localhost", 22715, "techmageserver", "kick2thegroin", "techmageservertest");
+	public static final MongoDBAccessor TEST_DB_ACCESSOR = MongoDBAccessorFactory.manufacture("localhost", 3001, "techmageserver", "kick2thegroin", "meteor");
 
 
 	public MainPlugin() {
